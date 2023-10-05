@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous">
+    <style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+body {font-family: 'Montserrat', sans-serif;}
+</style> <link type="text/css" rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div style="background: #f5f6f1">
+        <div class="container">
+          <div class="row">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+              <div class="container-fluid"> <a class="navbar-brand" href="#">Thitipohn</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"> <a class="nav-link active" aria-current="page"
+                        href="#home">home</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#about%20me">about
+                        me</a> </li>
+                    <li class="nav-item"> <a class="nav-link" href="#education">education</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="#skills">skills</a>
+                    </li>
+                    <li class="nav-item"> <a class="nav-link" href="#contacts">contacts</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <section class="home" id="home">
+          <div style="background: black">
+            <div class="container-fluid width=100%">
+              <div class="row">
+                <div class="col-md-6 px-5">
+                  <h4> <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <font color="#9b4980">Hi, There</font> </h4>
+                  <h1><font color="#f5f6f1"> I'm Thitipohn Saeching </font></h1>
+                  <p><font color="#878787"><font size="3.5"> student of the
+                        Faculty of Arts, Information Library Science major (ILS)
+                        <br>
+                        Silpakorn University</font></font> </p>
+                  <p> </p>
+                </div>
+                <div class="col-md-6 px-0" align="right"><img src="images/me22.png"
+                    alt="" class="img-fluid" hight="550" width="550"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about me">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-3 px-0"><img src="images/me101.png" alt="" class="img-fluid"
+                  hight="400" width="400"></div>
+              <div class="col-md-9 px-5">
+                <h2 align="center"><br>
+                  <br>
+                  <br>
+                  <font color="#23212c">About me</font></h2>
+                <p align="center"><font color="#5d5c5c">Motivated individual
+                    with an undergraduate degree in Faculty of Arts,<br>
+                    looking for career opportunities to expand my speaking and
+                    communicating skills.<br>
+                    Responsible and hard working person.</font> </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="education" id="education">
+          <div style="background: black">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-md-6 p-5" align="center"><img src="images/Roboto%20Slab.png"
+                    alt="" class="img-fluid" width="550"></div>
+                <div class="col-md-6 p-5" align="center"><img src="images/Roboto%20Slab%20%281%29.png"
+                    alt="" class="img-fluid" width="550"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="skills" id="skills">
+          <div class="row">
+            <h2 align="center"><br>
+              <font color="#23212c">Skills </font></h2>
+            <div class="col-md-3" align="center"><img src="images/essay.png" alt=""
+                width="80">
+              <p><font color="#23212c"> English language</font><br>
+                <font color="#5d5c5c">CEFR B2 </font></p>
+            </div>
+            <div class="col-md-3" align="center"><img src="images/powerpoint.png"
+                alt="" width="80">
+              <p><font color="#23212c"> Powerpoint</font><br>
+                <font color="#5d5c5c">good </font></p>
+            </div>
+            <div class="col-md-3" align="center"><img src="images/word.png" alt=""
+                width="80">
+              <p><font color="#23212c">Word</font><br>
+                <font color="#5d5c5c">good </font></p>
+            </div>
+            <div class="col-md-3" align="center"><img src="images/adobe-photoshop-logo.png"
+                alt="" width="80">
+              <p><font color="#23212c">Photoshop</font><br>
+                <font color="#5d5c5c">fair</font> </p>
+            </div>
+          </div>
+        </section>
+        <div class="row"> <br>
+        </div>
+        <section class="contacts" id="contacts">
+          <div style="background: black">
+            <div class="row">
+              <h2 align="center"><br>
+                <font color="#f5f6f1"> Contacts</font> </h2>
+              <p align="center"><br>
+                <img src="images/envelope-solid-24%20%281%29.png" alt=""><font color="#878787">
+                  ttphnschg@gmail.com</font></p>
+              <p align="center"><img src="images/phone-solid-24.png" alt=""><font
+                  color="#878787"> 081-234-5678</font></p>
+              <p align="center"><img src="images/home-solid-24.png" alt="">&nbsp;<font
+                  color="#878787"> 123 Anywhere St, Any city</font></p>
+            </div>
+          </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script> </div>
+    </div>
+  </body>
+</html>
