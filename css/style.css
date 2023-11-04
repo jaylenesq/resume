@@ -1,6 +1,15 @@
-<style>
-.img_rsponsive{
-  width: 100%
-    height: auto;
+body{font-family: 'Montserrat', sans-serif;}
+
+
+#home{ background-color: black;}
+#education{ background-color: black;}
+h2{text-align: center;}
+#contacts{ background-color: black;}
+
+.nav-link{
+  transition: all 0.2s;
 }
-</style>
+
+.nav-link:hover{
+  border-bottom: 2px solid #9b4980;
+}
